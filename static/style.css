@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #2e7d32;
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2e7d32;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+/* Predict button hover */
+.btn-danger:hover {
+    background-color: #c82333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input field enhancements */
+input.form-control-sm {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input.form-control-sm:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
